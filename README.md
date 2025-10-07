@@ -1,4 +1,3 @@
-
 # LeetCode MCP Server
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/ahm215/leetcode-mcp-server.svg)](https://hub.docker.com/r/ahm215/leetcode-mcp-server)
