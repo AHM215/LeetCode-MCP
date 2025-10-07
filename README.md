@@ -1,7 +1,7 @@
 
 # LeetCode MCP Server
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/ahm215/leetcode-mcp-server.svg)](https://hub.docker.com/r/ahm215/leetcode-mcp-server:v1.0.0)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ahm215/leetcode-mcp-server.svg)](https://hub.docker.com/r/ahm215/leetcode-mcp-server)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/AHM215/leetcode-mcp/ci.yml?branch=main)](https://github.com/AHM215/leetcode-mcp/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
