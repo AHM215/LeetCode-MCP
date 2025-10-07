@@ -61,7 +61,7 @@ LEETCODE_CSRFTOKEN=your_leetcode_csrftoken
 
 3.  **Run the server:**
     ```sh
-    mcp
+    uv run python run_server.py
     ```
     The server will start, and you can interact with it using an MCP client.
 
