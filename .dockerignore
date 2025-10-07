@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git
+.git/
+.gitignore
+
+# VSCode
+.vscode/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Env files
+.env
+.env.example
