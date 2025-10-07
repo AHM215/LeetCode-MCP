@@ -100,6 +100,29 @@ You can also build the Docker image from the source code.
     ```
 3.  **Run the container** as shown in the "Run with Docker" section, using `leetcode-mcp-server` as the image name.
 
+### Claude Desktop Usage
+
+If you want to run this server as a tool in a Claude Desktop environment, you can use the following JSON configuration. This defines a tool that runs the Docker container and passes the necessary credentials.
+
+**Note:** You must replace the placeholder values for `--leetcode-session` and `--csrftoken` with your actual LeetCode cookies.
+
+```json
+"docker-leetcode-mcp-server": {
+  "type": "stdio",
+  "command": "docker",
+  "args": [
+    "run",
+    "-i",
+    "--rm",
+    "ahm215/leetcode-mcp-server:v1.0.0",
+    "--leetcode-session",
+    "your_leetcode_session_cookie",
+    "--csrftoken",
+    "your_leetcode_csrftoken"
+  ]
+}
+```
+
 ## Available Tools (API)
 
 The server exposes the following tools:
